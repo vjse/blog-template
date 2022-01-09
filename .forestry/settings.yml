@@ -9,12 +9,14 @@ sections:
   create: documents
   templates:
   - post
+  - post
 - type: jekyll-pages
   label: Pages
   create: documents
 - type: document
   path: _config.yml
   label: Configuration
+  read_only: false
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
